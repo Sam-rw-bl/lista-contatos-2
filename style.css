@@ -1,0 +1,64 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(53, 94, 78);
+    margin: 0;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-title{
+    font-size: 70px;
+    color: #eee;
+    text-shadow: 2px 2px 2px black;
+}
+
+.list{
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.list-item{
+    background-color: white;
+    flex-basis: 300px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    background-image: url(./img/thumb02.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.list-item-imagem img{
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 120px;
+}
+
+.list-item-name{
+    font-size: 24px;
+    color: #385555;
+    margin: 0;
+}
+
+.list-item-action{
+    background-color: #e5e5e5;
+    padding: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+
+
+
